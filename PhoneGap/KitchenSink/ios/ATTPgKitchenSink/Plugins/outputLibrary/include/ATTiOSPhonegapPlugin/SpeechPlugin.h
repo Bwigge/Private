@@ -1,0 +1,1 @@
+../../../../../../../ios/nativeplugin/outputLibrary/include/ATTiOSPhonegapPlugin/SpeechPlugin.h

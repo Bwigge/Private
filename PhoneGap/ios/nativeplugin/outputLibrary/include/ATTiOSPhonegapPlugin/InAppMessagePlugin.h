@@ -1,0 +1,1 @@
+../../../../SDKPlugin/ATTiOSPhonegapPluginLibrarySourceCode/output_library/include/ATTiOSPhonegapPlugin/InAppMessagePlugin.h

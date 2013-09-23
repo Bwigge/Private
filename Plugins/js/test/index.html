@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<title>AT&T JavaScript Module Tester</title>
+		<script src="js/lib/has.js"></script>
+		<script src="js/lib/jquery-1.9.1.js"></script>
+		<script data-main="../ATT-JavaScript-Plugins/builds/att-phonegap-require-min-1.0.js"
+				src="js/lib/require.js"></script>
+		<!--
+		<script src="js/lib/require.js"></script>
+		<script>
+            var features = {
+                //titanium: true,
+                jquery: !!$,
+                XMLHttpRequest: true,
+                ADS: true,
+        		CMS: true,
+        		DC: true,
+        		IMMN: true,
+        		PAYMENT: true,
+        		MMS: true,
+        		SMS: true,
+        		SPEECH: true,
+        		TL: true,
+        		WAP: true
+    		};
+            
+            require.config({
+                baseUrl: "js/att",
+                has: features
+            });
+            
+            for(var feature in features) {
+            	has.add(feature, features[feature]);
+            }
+            
+            
+            require(["att"], function(att) {
+            	ATT = att;
+            	console.log('ATT is initialized!');
+            });
+        </script>
+        <!--<script src="../ATT-JavaScript-Plugins/builds/att-titanium-min.js"></script>
+        <script src="../ATT-JavaScript-Plugins/builds/att-phonegap-require-min-1.0.js"></script>-->
+	</head>
+	<body>
+		<h1>AT&T JavaScript Module Tester</h1>
+	</body>
+</html>
